@@ -1,0 +1,34 @@
+.form {
+    background-color: rgb(231, 216, 197);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    margin: 5% 0% 0% 25%;
+    font-family: 'monoscope';
+    border: 5px rgb(219, 189, 127) solid;
+}
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: blanchedalmond;
+    font-family: 'monoscope';
+    font-size: 22px
+}
+p {
+    text-align: center;
+}
+.form-style {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+.login {
+    display: flex;
+    justify-content: end;
+    text-decoration: underline;
+}

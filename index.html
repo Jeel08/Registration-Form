@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Alexandria|Trirong' rel='stylesheet'>
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <div class="form bold">      
+        <p style="font-size: 25px;font-family: Verdana, Geneva, Tahoma, sans-serif;"> Registration Form  </p>
+        
+    <form action="index.js" >
+
+        <div class="form-style">
+        <div class="firstName bold">
+            <label for="firstName" > First Name : </label>
+            <input type="text" name="firstName"  required>
+        </div>
+        <!-- <br> -->
+        <div class="lastName bold">
+            <label for="lastName">Last Name :</label>
+            <input type="text" name="lastName"  required>
+        </div>
+            <!-- <br> -->
+        <div class="phone bold">  
+            <label for="phone">Phone :</label>
+            <input type="text" name="phone"  required>
+        </div>
+            <!-- <br> -->
+        <div class="email bold">  
+            <label>Email :</label>
+            <input type="email" name="email"  required>
+        </div>
+            <!-- <br> -->
+        <div class="gender bold">  
+            <label>Gender :</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="Female">
+        </div>
+            <!-- <br> -->
+            <div class="Experience bold">
+                <label for="working"> Working Experience :  </label>
+                <select name="working" id="working">
+                    <option value="Fresher">Fresher</option>
+                    <option value="0-1">0 - 1</option>
+                    <option value="1-2">1 - 2</option>
+                    <option value="2-3">2 - 3</option>
+                    <option value="3-4">3 - 4</option>
+                    <option value="senior">Senior</option>
+                </select>
+            </div>
+            <!-- <br> -->
+        <div >
+            <label  class="bold" for="education">Education   :</label>
+                <label for="10th" >10th</label>
+                <input type="checkbox" name="10th" id="10th" value="10th" style="margin: 5px;"> 
+                <label for="12th">12th</label> 
+                <input type="checkbox" name="12th" id="12th" value="12th" style="margin: 5px;"> 
+                <label for="Bachelor">Bachelor</label> 
+                <input type="checkbox" name="Bachelor" id="Bachelor" value="Bachelor" style="margin: 5px;"> 
+                <label for="Masters">Masters</label> 
+                <input type="checkbox" name="masters" id="masters" value="Masters" style="margin: 5px;">
+        </div>
+
+    </div>
+            <!-- <br> -->
+            <div class="submit-button">
+                <input type="button" value="Submit" class="btn btn-success ">
+                <button style="margin-left: 15px;" class="btn btn-light"> Cancle </button>
+            </div>
+            <div class="login">
+                <label for="account">
+                    <a href="/Registration form/login/login.html" target="_self">Login?</a>
+                </label>
+            </div>
+        <!-- <input type="button" value="Reset" class="btn btn-danger"> -->
+
+    </form>
+</div>
+</body>
+</html>
